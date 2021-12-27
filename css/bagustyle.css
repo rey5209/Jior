@@ -2,7 +2,7 @@ body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(-45deg, #EE7752, #e55050, #1c920f, #23D5AB);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -81,8 +81,8 @@ h6 {
 	  -moz-box-shadow: 0px 6px 5px #111; 
 	  -webkit-box-shadow: 0px 6px 5px #111; 
 	  box-shadow: 0px 2px 10px #111; 
-	  -moz-border-radius:100px; 
-	  -webkit-border-radius:100px; 
+	  -moz-border-radius:190px; 
+	  -webkit-border-radius:190px; 
 	  border-radius:190px;
   }
 
