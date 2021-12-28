@@ -80,21 +80,28 @@ h6 {
 	10.71429% { transform:translate(0,0) }
 	100% { transform:translate(0,0) }
   }
-  .custom-header{
+  .custom-header{ 
+	  background-image: url('../images/flag.jpg');
+	  background-repeat: no-repeat; 
+	  object-fit: contain;
 	  margin-top: 90px !important;
 
   }
 
+  .sunny-mode{
+
+	-webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -28px 21px 15px rgba(0,0,0,0); 
+	box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -28px 21px 15px rgba(0,0,0,0);
+	
+  }
+
   .backdrop {
-	  -moz-box-shadow: 0px 6px 5px #111; 
+	  /* -moz-box-shadow: 0px 6px 5px #111; 
 	  -webkit-box-shadow: 0px 6px 5px #111; 
-	  box-shadow: 0px 2px 10px #111; 
+	  box-shadow: 0px 2px 10px #111;  */
 	  -moz-border-radius:190px; 
 	  -webkit-border-radius:190px; 
 	  border-radius:190px;
-
-	  -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -28px 21px 15px rgba(0,0,0,0); 
-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px -28px 21px 15px rgba(0,0,0,0);
   }
 
   .linktree { 
