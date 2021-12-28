@@ -1,53 +1,95 @@
 body { 
 	padding-top: 35px;
-	color: #fff;
-	background-color: black !important;
+	/* color: #fff;
+	background-color: black !important; */
+	/* animation-name: backgroundColorPalette;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;  */
 	
+	animation: backgroundColorPalette 30s alternate infinite linear;
+	-moz-animation:  backgroundColorPalette 30s alternate infinite linear;
+	animation:  backgroundColorPalette 30s alternate infinite linear;
 }
 
-.bg-changing{
-	background: linear-gradient(-45deg, #EE7752, #e55050, #1c920f, #23D5AB);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
+/* OLD */
+.bg-changing{ 
+	background: linear-gradient(-45deg, #f31212, #ffee06,  #2edf1e, #0eeaf1, #3400f1, #d500f1); 
+	/* background-size: 400% 400%; */
+	 -webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+
 }
 
-@-webkit-keyframes Gradient {
+@keyframes backgroundColorPalette {
 	0% {
-		background-position: 0% 50%
+		background: #f31212;
 	}
-	50% {
-		background-position: 100% 50%
+	20% {
+		background: #ffee06;
+	}
+	40% {
+		background: #2edf1e;
+	}
+	60% {
+		background: #0eeaf1;
+	}
+	80% {
+		background: #3400f1;
 	}
 	100% {
-		background-position: 0% 50%
+		background: #d500f1;
 	}
+
+
+}
+ 
+@-webkit-keyframes backgroundColorPalette {
+	0% {
+		background: #f31212;
+	}
+	20% {
+		background: #ffee06;
+	}
+	40% {
+		background: #2edf1e;
+	}
+	60% {
+		background: #0eeaf1;
+	}
+	80% {
+		background: #3400f1;
+	}
+	100% {
+		background: #d500f1;
+	}
+
+
+}
+@-moz-keyframes backgroundColorPalette {
+	0% {
+		background: #f31212;
+	}
+	20% {
+		background: #ffee06;
+	}
+	40% {
+		background: #2edf1e;
+	}
+	60% {
+		background: #0eeaf1;
+	}
+	80% {
+		background: #3400f1;
+	}
+	100% {
+		background: #d500f1;
+	} 
+
 }
 
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
 
 h1,
 h6 {
