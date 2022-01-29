@@ -15,3 +15,4 @@ plugins:
  - jekyll-feed
  - jekyll-pageniate
  - jekyll-sitemap ## uncomment this line to silently generate a sitemaps.org compliant sitemap for your jekyll site
+theme: jekyll-theme-merlot
