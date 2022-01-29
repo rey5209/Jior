@@ -86,6 +86,12 @@ $(document).ready(function() {
         // Just for empty space
         $('.append_table-'+count_page).append(""+
         '<tr> '+ 
+        '  <td >        '+
+        '    <div class="lokals-item lokals-footer d-flex justify-content-between align-items-center">'+
+        '      <h3 class="p-2 link-dark post-title text-danger"></h3> '+
+        '      <h3 class="p-2 link-dark view-counter text-danger "></h3>'+
+        '    </div> '+
+        '  </td>  '+
         '</tr>'+
           "")
 
