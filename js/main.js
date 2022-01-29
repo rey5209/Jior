@@ -65,6 +65,7 @@ $(document).ready(function() {
         
  
         var page = item.page;
+        var redirectPage = item.redirectPage;
         item.viewData.forEach(setLokals);
         function setLokals(item, index) { 
           total += item.views; 
@@ -73,7 +74,7 @@ $(document).ready(function() {
           $('.append_table-'+count_page).append(""+
           '<tr> '+
           '    <td > '+
-          '        <a href="'+page+'?pageId='+count_page+'&lokal='+item.lokal+'" class="lokals-item d-flex justify-content-between align-items-center" id="lokal_'+item.lokal+'">'+
+          '        <a href="'+(redirectPage == true? page : '#' )+'?pageId='+count_page+'&lokal='+item.lokal+'" class="lokals-item d-flex justify-content-between align-items-center" id="lokal_'+item.lokal+'">'+
           '          <div class="p-2 link-dark post-title">'+item.lokal+'</div> '+
           '          <div class="p-2 link-dark view-counter '+item.lokal+'_view">'+item.views+'</div>'+
           '        </a>'+
