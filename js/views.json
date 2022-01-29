@@ -72,7 +72,7 @@
       "subTittle" : "FSV",
       "link" : "https://www.bold.com/",
       "allowEdit": false,
-      "redirectPage": false,
+      "redirectPage": true,
       "page" : "watch",
       "viewData" : [
         {"lokal":"AGUILAR",           "views":  43},
@@ -139,7 +139,7 @@
         "subTittle" : "ASPN",
         "link" : "https://www.google.com/",
         "allowEdit": false,
-        "redirectPage": true,
+        "redirectPage": false,
         "page" : "watch",
         "viewData" : [
           {"lokal":"AGUILAR",           "views":  0},
