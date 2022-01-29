@@ -4,6 +4,8 @@
     "tittle" : "KADA UMAGA with Boy Abunda | JANUARY 19 , 2022",
     "subTittle" : "Today",
     "link" : "https://www.youtube.com/",
+    "allowEdit": false,
+    "redirectPage": true,
     "page" : "watch",
     "viewData" : [
       {"lokal":"AGUILAR",           "views":  9999},
@@ -69,6 +71,8 @@
       "tittle" : "Funniest SUCK (Hindi nakakatawa) Videos | JANUARY 19 , 2022",
       "subTittle" : "FSV",
       "link" : "https://www.bold.com/",
+      "allowEdit": false,
+      "redirectPage": true,
       "page" : "watch",
       "viewData" : [
         {"lokal":"AGUILAR",           "views":  43},
@@ -134,6 +138,8 @@
         "tittle" : "ASPN - Ano Sa Pake Nyo?| JANUARY 19 , 2022",
         "subTittle" : "ASPN",
         "link" : "https://www.google.com/",
+        "allowEdit": false,
+        "redirectPage": true,
         "page" : "watch",
         "viewData" : [
           {"lokal":"AGUILAR",           "views":  0},
