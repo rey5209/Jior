@@ -4,7 +4,7 @@ $(document).ready(function() {
   var urlParams = parseURLParams(location.search);
 
   var lokal_name = urlParams.lokal[0]
-  var lokal_page_id = urlParams.pageId[0]
+  var lokal_page_id = urlParams.pageId[0] 
   var link = '';
 
   console.log(lokal_name)
@@ -24,6 +24,12 @@ $(document).ready(function() {
       // SET LINK from json
       link = data.jsonData[lokal_page_id-1].link;
       $('.main-event').append('<a  id="hidden-link" class="hidden-link" href="'+link+'" target="_blank"></a>'); 
+
+      
+      var image = data.jsonData[lokal_page_id-1].image;
+      $(".append-image").append(''+
+        '<img class="img-fluid mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"src="img/'+image+'" alt=""></img>'+
+      '')
 
       // minus 1 since the page starts fromm 1 and index of array starts from 0
       data.jsonData[lokal_page_id-1].viewData.forEach(setViews);  
