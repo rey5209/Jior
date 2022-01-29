@@ -1,5 +1,7 @@
 
 $(document).ready(function() {
+  
+
   // var urlString = location.search;
   var urlParams = parseURLParams(location.search);
 

@@ -2,6 +2,8 @@
 
 $(document).ready(function() {
  
+  document.querySelector('meta[property="og:description"]').setAttribute("content", "Description eto");
+
     var current_page = 1;
     var max_page = 0;
     var page_main_tittles = [];
