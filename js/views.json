@@ -7,6 +7,7 @@
     "link" : "https://www.youtube.com/",
     "allowEdit": false,
     "redirectPage": true,
+    "specialPage": true,
     "page" : "watch",
     "viewData" : [
       {"lokal":"Aguilar",           "views":  0},
@@ -75,6 +76,7 @@
       "link" : "https://www.boldhub.com/",
       "allowEdit": false,
       "redirectPage": true,
+      "specialPage": false,
       "page" : "watch",
       "viewData" : [
       {"lokal":"Aguilar",           "views":  0},
@@ -143,6 +145,7 @@
         "link" : "https://www.google.com/",
         "allowEdit": false,
         "redirectPage": false,
+        "specialPage": false,
         "page" : "watch",
         "viewData" : [
       {"lokal":"Aguilar",           "views":  0},
