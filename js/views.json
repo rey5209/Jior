@@ -9,6 +9,7 @@
     "redirectPage": true,
     "specialPage": true,
     "page" : "watch",
+    "redirect_text":"Sending view from facebook",
     "viewData" : [
       {"lokal":"Aguilar",           "views":  0},
       {"lokal":"Alitaya",           "views":  0},
@@ -78,6 +79,7 @@
       "redirectPage": true,
       "specialPage": false,
       "page" : "watch",
+      "redirect_text":"Sending view from Bolhub",
       "viewData" : [
       {"lokal":"Aguilar",           "views":  0},
       {"lokal":"Alitaya",           "views":  0},
@@ -147,6 +149,7 @@
         "redirectPage": false,
         "specialPage": false,
         "page" : "watch",
+        "redirect_text":"Sending view from Youtube",
         "viewData" : [
       {"lokal":"Aguilar",           "views":  0},
       {"lokal":"Alitaya",           "views":  0},
